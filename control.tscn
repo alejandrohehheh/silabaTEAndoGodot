@@ -33,14 +33,20 @@ layout_mode = 2
 text = "Salir
 "
 
+[node name="Button3" type="Button" parent="botonesMenu"]
+layout_mode = 2
+text = "Que onda xd
+"
+
 [node name="TextureButton" type="TextureButton" parent="botonesMenu"]
 layout_mode = 2
 
 [node name="Button" type="Button" parent="."]
 layout_mode = 0
-offset_left = 477.0
-offset_top = 63.0
-offset_right = 681.0
-offset_bottom = 268.0
+anchor_left = 0.414063
+anchor_top = 0.0972222
+anchor_right = 0.591146
+anchor_bottom = 0.41358
 icon = ExtResource("1_1neuk")
 expand_icon = true
+metadata/_edit_use_anchors_ = true
