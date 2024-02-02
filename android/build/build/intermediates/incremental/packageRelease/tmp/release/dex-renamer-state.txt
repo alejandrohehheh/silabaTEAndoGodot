@@ -1,0 +1,4 @@
+#Thu Feb 01 22:09:06 CST 2024
+base.0=C\:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
