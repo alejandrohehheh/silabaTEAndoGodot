@@ -6,8 +6,8 @@
     android:versionName="1.0.0" >
 
     <uses-sdk
-        android:minSdkVersion="32"
-        android:targetSdkVersion="32" />
+        android:minSdkVersion="24"
+        android:targetSdkVersion="33" />
 
     <supports-screens
         android:largeScreens="true"
