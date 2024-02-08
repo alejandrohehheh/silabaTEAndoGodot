@@ -13,7 +13,8 @@ grow_vertical = 2
 script = ExtResource("1_hge28")
 
 [node name="Logo12" type="Sprite2D" parent="."]
-position = Vector2(562, 235)
+position = Vector2(557.5, 242.5)
+scale = Vector2(0.982, 0.97)
 texture = ExtResource("2_krjex")
 
 [node name="Button" type="Button" parent="."]
@@ -29,7 +30,7 @@ offset_right = 32.0
 offset_bottom = 223.0
 grow_horizontal = 2
 grow_vertical = 2
-text = "incio"
+text = "inicio"
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 layer = -1
@@ -37,6 +38,6 @@ layer = -1
 [node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
 offset_right = 1150.0
 offset_bottom = 645.0
-color = Color(0.352941, 0.74902, 0.984314, 1)
+color = Color(0.545098, 0.756863, 0.854902, 0.921569)
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

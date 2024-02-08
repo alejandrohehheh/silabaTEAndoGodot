@@ -1,4 +1,8 @@
-[gd_scene format=3 uid="uid://xtvhljpjm24d"]
+[gd_scene load_steps=4 format=3 uid="uid://xtvhljpjm24d"]
+
+[ext_resource type="Theme" uid="uid://ceh0roi7no0nc" path="res://themes/botonUser.tres" id="1_a047s"]
+[ext_resource type="Script" path="res://scenes/Menu.gd" id="1_mul7t"]
+[ext_resource type="Texture2D" uid="uid://cxtxj4gb3h27f" path="res://images/user.png" id="2_77oxy"]
 
 [node name="Menu" type="Control"]
 layout_mode = 3
@@ -7,12 +11,35 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_mul7t")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.545098, 0.756863, 0.854902, 0.921569)
 
 [node name="Button" type="Button" parent="."]
 layout_mode = 0
-offset_left = 457.0
-offset_top = 151.0
-offset_right = 576.0
-offset_bottom = 184.0
-text = "hol<
-"
+offset_left = 1005.0
+offset_top = 40.0
+offset_right = 1081.0
+offset_bottom = 111.0
+theme = ExtResource("1_a047s")
+
+[node name="Button2" type="Button" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 779.0
+offset_top = 28.0
+offset_right = 892.0
+offset_bottom = 146.0
+icon = ExtResource("2_77oxy")
+expand_icon = true
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
