@@ -10,9 +10,13 @@ config_version=5
 
 [application]
 
-config/name="silabaTEAndo"
+config/name="juego1"
 config/features=PackedStringArray("4.2", "Mobile")
-config/icon="res://icon.svg"
+config/icon="res://images/icon.svg"
+
+[autoload]
+
+Trans="*res://scenes/trans.tscn"
 
 [rendering]
 
