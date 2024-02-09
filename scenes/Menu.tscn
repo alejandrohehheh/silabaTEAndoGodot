@@ -24,17 +24,15 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0.545098, 0.756863, 0.854902, 0.921569)
 
-[node name="Button" type="Button" parent="."]
-layout_mode = 0
-offset_left = 1005.0
-offset_top = 40.0
-offset_right = 1081.0
-offset_bottom = 111.0
+[node name="Button" type="Button" parent="CanvasLayer"]
+offset_left = 1145.0
+offset_top = 48.0
+offset_right = 1221.0
+offset_bottom = 119.0
 theme = ExtResource("1_a047s")
 
-[node name="Button2" type="Button" parent="."]
+[node name="Button2" type="Button" parent="CanvasLayer"]
 visible = false
-layout_mode = 0
 offset_left = 779.0
 offset_top = 28.0
 offset_right = 892.0
@@ -42,4 +40,4 @@ offset_bottom = 146.0
 icon = ExtResource("2_77oxy")
 expand_icon = true
 
-[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/Button" to="." method="_on_button_pressed"]

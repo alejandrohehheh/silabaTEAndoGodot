@@ -1,8 +1,8 @@
 <libraries>
   <library
-      name="__local_aars__:C:\Users\aleja\OneDrive\Escritorio\jueguito2\android\build\libs\release\godot-lib.template_release.aar:unspecified@jar"
+      name="__local_aars__:C:\Users\aleja\OneDrive\Documentos\GitHub\silabaTEAndoGodot\android\build\libs\release\godot-lib.template_release.aar:unspecified@jar"
       jars="C:\Users\aleja\.gradle\caches\transforms-3\bce0b6f33e6a5d0c9706dbd1003ff54d\transformed\jetified-godot-lib.template_release\jars\classes.jar"
-      resolved="__local_aars__:C:\Users\aleja\OneDrive\Escritorio\jueguito2\android\build\libs\release\godot-lib.template_release.aar:unspecified"
+      resolved="__local_aars__:C:\Users\aleja\OneDrive\Documentos\GitHub\silabaTEAndoGodot\android\build\libs\release\godot-lib.template_release.aar:unspecified"
       folder="C:\Users\aleja\.gradle\caches\transforms-3\bce0b6f33e6a5d0c9706dbd1003ff54d\transformed\jetified-godot-lib.template_release"
       manifest="AndroidManifest.xml"
       resFolder="res"
