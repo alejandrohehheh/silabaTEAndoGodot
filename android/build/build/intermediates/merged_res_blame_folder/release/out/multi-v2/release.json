@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-fa\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-fa\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -60,7 +60,7 @@
             "outputFile": "com.godot.game-merged_res-11:/values-de_values-de.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-de\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-de\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -114,7 +114,7 @@
             "outputFile": "com.godot.game-merged_res-11:/values-el_values-el.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-el\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-el\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -170,7 +170,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-sv\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-sv\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -192,7 +192,7 @@
             "outputFile": "com.godot.game-merged_res-11:/values-uk_values-uk.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-uk\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-uk\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -261,7 +261,7 @@
             "outputFile": "com.godot.game-merged_res-11:/values-pl_values-pl.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-pl\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-pl\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -377,7 +377,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-tr\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-tr\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -429,7 +429,7 @@
             "outputFile": "com.godot.game-merged_res-11:/values-en_values-en.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-en\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-en\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -451,7 +451,7 @@
             "outputFile": "com.godot.game-merged_res-11:/values-zh_values-zh.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-zh\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-zh\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -488,7 +488,7 @@
             "outputFile": "com.godot.game-merged_res-11:/values-ar_values-ar.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-ar\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-ar\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -527,23 +527,6 @@
             "outputFile": "com.godot.game-merged_res-11:/values-ro_values-ro.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-ro\\godot_project_name_string.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "1",
-                        "startOffsets": "112",
-                        "endColumns": "57",
-                        "endOffsets": "168"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "60",
-                        "endOffsets": "111"
-                    }
-                },
-                {
                     "source": "C:\\Users\\aleja\\.gradle\\caches\\transforms-3\\9bcb1a65f5938aad264f4d73e9a06f28\\transformed\\core-1.2.0\\res\\values-ro\\values-ro.xml",
                     "from": {
                         "startLines": "2",
@@ -558,6 +541,23 @@
                         "startOffsets": "116",
                         "endColumns": "100",
                         "endOffsets": "212"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-ro\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "57",
+                        "endOffsets": "168"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "60",
+                        "endOffsets": "111"
                     }
                 }
             ]
@@ -596,7 +596,7 @@
             "outputFile": "com.godot.game-merged_res-11:/values-nl_values-nl.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-nl\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-nl\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -669,7 +669,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-ko\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-ko\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -708,7 +708,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-lt\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-lt\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -835,6 +835,23 @@
             "outputFile": "com.godot.game-merged_res-11:/values-th_values-th.arsc.flat",
             "map": [
                 {
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-th\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "57",
+                        "endOffsets": "168"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "60",
+                        "endOffsets": "111"
+                    }
+                },
+                {
                     "source": "C:\\Users\\aleja\\.gradle\\caches\\transforms-3\\9bcb1a65f5938aad264f4d73e9a06f28\\transformed\\core-1.2.0\\res\\values-th\\values-th.xml",
                     "from": {
                         "startLines": "2",
@@ -850,23 +867,6 @@
                         "endColumns": "100",
                         "endOffsets": "212"
                     }
-                },
-                {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-th\\godot_project_name_string.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "1",
-                        "startOffsets": "112",
-                        "endColumns": "57",
-                        "endOffsets": "168"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "60",
-                        "endOffsets": "111"
-                    }
                 }
             ]
         },
@@ -874,7 +874,7 @@
             "outputFile": "com.godot.game-merged_res-11:/values-es_values-es.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-es\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-es\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -943,6 +943,23 @@
             "outputFile": "com.godot.game-merged_res-11:/values-nb_values-nb.arsc.flat",
             "map": [
                 {
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-nb\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "57",
+                        "endOffsets": "168"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "60",
+                        "endOffsets": "111"
+                    }
+                },
+                {
                     "source": "C:\\Users\\aleja\\.gradle\\caches\\transforms-3\\9bcb1a65f5938aad264f4d73e9a06f28\\transformed\\core-1.2.0\\res\\values-nb\\values-nb.xml",
                     "from": {
                         "startLines": "2",
@@ -957,23 +974,6 @@
                         "startOffsets": "116",
                         "endColumns": "100",
                         "endOffsets": "212"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-nb\\godot_project_name_string.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "1",
-                        "startOffsets": "112",
-                        "endColumns": "57",
-                        "endOffsets": "168"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "60",
-                        "endOffsets": "111"
                     }
                 }
             ]
@@ -1014,7 +1014,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-bg\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-bg\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -1081,7 +1081,7 @@
             "outputFile": "com.godot.game-merged_res-11:/values-it_values-it.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-it\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-it\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -1137,7 +1137,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-ja\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-ja\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -1159,6 +1159,23 @@
             "outputFile": "com.godot.game-merged_res-11:/values-cs_values-cs.arsc.flat",
             "map": [
                 {
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-cs\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "57",
+                        "endOffsets": "168"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "60",
+                        "endOffsets": "111"
+                    }
+                },
+                {
                     "source": "C:\\Users\\aleja\\.gradle\\caches\\transforms-3\\9bcb1a65f5938aad264f4d73e9a06f28\\transformed\\core-1.2.0\\res\\values-cs\\values-cs.xml",
                     "from": {
                         "startLines": "2",
@@ -1173,23 +1190,6 @@
                         "startOffsets": "116",
                         "endColumns": "100",
                         "endOffsets": "212"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-cs\\godot_project_name_string.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "1",
-                        "startOffsets": "112",
-                        "endColumns": "57",
-                        "endOffsets": "168"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "60",
-                        "endOffsets": "111"
                     }
                 }
             ]
@@ -1213,7 +1213,7 @@
             "outputFile": "com.godot.game-merged_res-11:/values-pt_values-pt.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-pt\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-pt\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -1267,23 +1267,6 @@
             "outputFile": "com.godot.game-merged_res-11:/values-in_values-in.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-in\\godot_project_name_string.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "1",
-                        "startOffsets": "112",
-                        "endColumns": "57",
-                        "endOffsets": "168"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "60",
-                        "endOffsets": "111"
-                    }
-                },
-                {
                     "source": "C:\\Users\\aleja\\.gradle\\caches\\transforms-3\\9bcb1a65f5938aad264f4d73e9a06f28\\transformed\\core-1.2.0\\res\\values-in\\values-in.xml",
                     "from": {
                         "startLines": "2",
@@ -1298,6 +1281,23 @@
                         "startOffsets": "116",
                         "endColumns": "100",
                         "endOffsets": "212"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-in\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "57",
+                        "endOffsets": "168"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "60",
+                        "endOffsets": "111"
                     }
                 }
             ]
@@ -1338,7 +1338,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-tl\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-tl\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -1360,6 +1360,23 @@
             "outputFile": "com.godot.game-merged_res-11:/values-zh-rHK_values-zh-rHK.arsc.flat",
             "map": [
                 {
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-zh-rHK\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "57",
+                        "endOffsets": "168"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "60",
+                        "endOffsets": "111"
+                    }
+                },
+                {
                     "source": "C:\\Users\\aleja\\.gradle\\caches\\transforms-3\\9bcb1a65f5938aad264f4d73e9a06f28\\transformed\\core-1.2.0\\res\\values-zh-rHK\\values-zh-rHK.xml",
                     "from": {
                         "startLines": "2",
@@ -1374,23 +1391,6 @@
                         "startOffsets": "116",
                         "endColumns": "100",
                         "endOffsets": "212"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-zh-rHK\\godot_project_name_string.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "1",
-                        "startOffsets": "112",
-                        "endColumns": "57",
-                        "endOffsets": "168"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "60",
-                        "endOffsets": "111"
                     }
                 }
             ]
@@ -1414,7 +1414,7 @@
             "outputFile": "com.godot.game-merged_res-11:/values-sl_values-sl.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-sl\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-sl\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -1453,7 +1453,7 @@
             "outputFile": "com.godot.game-merged_res-11:/values-zh-rTW_values-zh-rTW.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-zh-rTW\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-zh-rTW\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -1492,7 +1492,7 @@
             "outputFile": "com.godot.game-merged_res-11:/values-fi_values-fi.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-fi\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-fi\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -1531,23 +1531,6 @@
             "outputFile": "com.godot.game-merged_res-11:/values_values.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values\\godot_project_name_string.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "1",
-                        "startOffsets": "112",
-                        "endColumns": "57",
-                        "endOffsets": "168"
-                    },
-                    "to": {
-                        "startLines": "86",
-                        "startColumns": "4",
-                        "startOffsets": "5230",
-                        "endColumns": "60",
-                        "endOffsets": "5286"
-                    }
-                },
-                {
                     "source": "C:\\Users\\aleja\\.gradle\\caches\\transforms-3\\3102a421f9f9c72d52e08f6fe09310fd\\transformed\\lifecycle-viewmodel-2.3.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -1562,25 +1545,6 @@
                         "startOffsets": "4805",
                         "endColumns": "49",
                         "endOffsets": "4850"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values\\themes.xml",
-                    "from": {
-                        "startLines": "3,5",
-                        "startColumns": "1,1",
-                        "startOffsets": "53,136",
-                        "endLines": "3,8",
-                        "endColumns": "81,9",
-                        "endOffsets": "133,384"
-                    },
-                    "to": {
-                        "startLines": "126,127",
-                        "startColumns": "4,4",
-                        "startOffsets": "8438,8523",
-                        "endLines": "126,130",
-                        "endColumns": "84,9",
-                        "endOffsets": "8518,8771"
                     }
                 },
                 {
@@ -1658,6 +1622,42 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "57",
+                        "endOffsets": "168"
+                    },
+                    "to": {
+                        "startLines": "86",
+                        "startColumns": "4",
+                        "startOffsets": "5230",
+                        "endColumns": "60",
+                        "endOffsets": "5286"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "3,5",
+                        "startColumns": "1,1",
+                        "startOffsets": "53,136",
+                        "endLines": "3,8",
+                        "endColumns": "81,9",
+                        "endOffsets": "133,384"
+                    },
+                    "to": {
+                        "startLines": "126,127",
+                        "startColumns": "4,4",
+                        "startOffsets": "8438,8523",
+                        "endLines": "126,130",
+                        "endColumns": "84,9",
+                        "endOffsets": "8518,8771"
+                    }
+                },
+                {
                     "source": "C:\\Users\\aleja\\.gradle\\caches\\transforms-3\\94b972ed44b18279006052b701b4135c\\transformed\\jetified-savedstate-1.1.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -1727,7 +1727,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-fr\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-fr\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -1811,7 +1811,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-hr\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-hr\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -1850,7 +1850,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-iw\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-iw\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -1887,7 +1887,7 @@
             "outputFile": "com.godot.game-merged_res-11:/values-ru_values-ru.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-ru\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-ru\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -1956,7 +1956,7 @@
             "outputFile": "com.godot.game-merged_res-11:/values-hu_values-hu.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-hu\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-hu\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -2042,7 +2042,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-sr\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-sr\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -2064,7 +2064,7 @@
             "outputFile": "com.godot.game-merged_res-11:/values-es-rES_values-es-rES.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-es-rES\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-es-rES\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -2086,23 +2086,6 @@
             "outputFile": "com.godot.game-merged_res-11:/values-da_values-da.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-da\\godot_project_name_string.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "1",
-                        "startOffsets": "112",
-                        "endColumns": "57",
-                        "endOffsets": "168"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "60",
-                        "endOffsets": "111"
-                    }
-                },
-                {
                     "source": "C:\\Users\\aleja\\.gradle\\caches\\transforms-3\\9bcb1a65f5938aad264f4d73e9a06f28\\transformed\\core-1.2.0\\res\\values-da\\values-da.xml",
                     "from": {
                         "startLines": "2",
@@ -2117,6 +2100,23 @@
                         "startOffsets": "116",
                         "endColumns": "100",
                         "endOffsets": "212"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-da\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "57",
+                        "endOffsets": "168"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "60",
+                        "endOffsets": "111"
                     }
                 }
             ]
@@ -2188,7 +2188,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-lv\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-lv\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -2255,7 +2255,7 @@
             "outputFile": "com.godot.game-merged_res-11:/values-sk_values-sk.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-sk\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-sk\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -2294,7 +2294,7 @@
             "outputFile": "com.godot.game-merged_res-11:/values-hi_values-hi.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-hi\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-hi\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -2363,7 +2363,7 @@
             "outputFile": "com.godot.game-merged_res-11:/values-vi_values-vi.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-vi\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-vi\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -2402,7 +2402,7 @@
             "outputFile": "com.godot.game-merged_res-11:/values-ca_values-ca.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-ca\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-ca\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",

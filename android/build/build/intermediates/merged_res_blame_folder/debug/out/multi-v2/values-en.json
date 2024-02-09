@@ -4,7 +4,7 @@
             "outputFile": "com.godot.game-mergeDebugResources-9:/values-en/values-en.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Escritorio\\jueguito2\\android\\build\\res\\values-en\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-en\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
