@@ -1,8 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://xtvhljpjm24d"]
+[gd_scene load_steps=3 format=3 uid="uid://xtvhljpjm24d"]
 
 [ext_resource type="Theme" uid="uid://ceh0roi7no0nc" path="res://themes/botonUser.tres" id="1_a047s"]
 [ext_resource type="Script" path="res://scenes/Menu.gd" id="1_mul7t"]
-[ext_resource type="Texture2D" uid="uid://cxtxj4gb3h27f" path="res://images/user.png" id="2_77oxy"]
 
 [node name="Menu" type="Control"]
 layout_mode = 3
@@ -31,13 +30,26 @@ offset_right = 1221.0
 offset_bottom = 119.0
 theme = ExtResource("1_a047s")
 
-[node name="Button2" type="Button" parent="CanvasLayer"]
-visible = false
-offset_left = 779.0
-offset_top = 28.0
-offset_right = 892.0
-offset_bottom = 146.0
-icon = ExtResource("2_77oxy")
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.25
+anchor_bottom = 0.289
+offset_left = 464.0
+offset_top = 188.0
+offset_right = 548.0
+offset_bottom = 265.92
+
+[node name="Button2" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Nivel  1
+"
+expand_icon = true
+
+[node name="Button3" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Nivel 2 
+"
 expand_icon = true
 
 [connection signal="pressed" from="CanvasLayer/Button" to="." method="_on_button_pressed"]
