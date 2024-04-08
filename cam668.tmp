@@ -1,0 +1,520 @@
+[gd_scene load_steps=7 format=3 uid="uid://cmjsrmkpxxbs7"]
+
+[ext_resource type="Script" path="res://Nivel1.gd" id="1_5xppi"]
+[ext_resource type="LabelSettings" uid="uid://b8v2jvecxe5da" path="res://themes/letraSola.tres" id="2_7l2gn"]
+[ext_resource type="Texture2D" uid="uid://csvwgvkhq0m6t" path="res://images/nivel1/Dos.png" id="3_05mbd"]
+[ext_resource type="AudioStream" uid="uid://4cdvtb4u8g2u" path="res://sounds/E.wav" id="3_qd4qd"]
+
+[sub_resource type="FontFile" id="FontFile_k1e3a"]
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/16/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/17/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/18/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/19/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/21/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/22/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/23/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/24/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/25/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/26/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/27/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/28/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/29/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/31/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/60/0 = Vector2(0, 0)
+cache/0/17/0/ascent = 0.0
+cache/0/17/0/descent = 0.0
+cache/0/17/0/underline_position = 0.0
+cache/0/17/0/underline_thickness = 0.0
+cache/0/17/0/scale = 1.0
+cache/0/17/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/17/0/kerning_overrides/17/0 = Vector2(0, 0)
+cache/0/17/0/kerning_overrides/18/0 = Vector2(0, 0)
+cache/0/17/0/kerning_overrides/19/0 = Vector2(0, 0)
+cache/0/17/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/17/0/kerning_overrides/21/0 = Vector2(0, 0)
+cache/0/17/0/kerning_overrides/22/0 = Vector2(0, 0)
+cache/0/17/0/kerning_overrides/23/0 = Vector2(0, 0)
+cache/0/17/0/kerning_overrides/24/0 = Vector2(0, 0)
+cache/0/17/0/kerning_overrides/25/0 = Vector2(0, 0)
+cache/0/17/0/kerning_overrides/26/0 = Vector2(0, 0)
+cache/0/17/0/kerning_overrides/27/0 = Vector2(0, 0)
+cache/0/17/0/kerning_overrides/28/0 = Vector2(0, 0)
+cache/0/17/0/kerning_overrides/29/0 = Vector2(0, 0)
+cache/0/17/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/17/0/kerning_overrides/31/0 = Vector2(0, 0)
+cache/0/17/0/kerning_overrides/60/0 = Vector2(0, 0)
+cache/0/18/0/ascent = 0.0
+cache/0/18/0/descent = 0.0
+cache/0/18/0/underline_position = 0.0
+cache/0/18/0/underline_thickness = 0.0
+cache/0/18/0/scale = 1.0
+cache/0/18/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/18/0/kerning_overrides/17/0 = Vector2(0, 0)
+cache/0/18/0/kerning_overrides/18/0 = Vector2(0, 0)
+cache/0/18/0/kerning_overrides/19/0 = Vector2(0, 0)
+cache/0/18/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/18/0/kerning_overrides/21/0 = Vector2(0, 0)
+cache/0/18/0/kerning_overrides/22/0 = Vector2(0, 0)
+cache/0/18/0/kerning_overrides/23/0 = Vector2(0, 0)
+cache/0/18/0/kerning_overrides/24/0 = Vector2(0, 0)
+cache/0/18/0/kerning_overrides/25/0 = Vector2(0, 0)
+cache/0/18/0/kerning_overrides/26/0 = Vector2(0, 0)
+cache/0/18/0/kerning_overrides/27/0 = Vector2(0, 0)
+cache/0/18/0/kerning_overrides/28/0 = Vector2(0, 0)
+cache/0/18/0/kerning_overrides/29/0 = Vector2(0, 0)
+cache/0/18/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/18/0/kerning_overrides/31/0 = Vector2(0, 0)
+cache/0/18/0/kerning_overrides/60/0 = Vector2(0, 0)
+cache/0/19/0/ascent = 0.0
+cache/0/19/0/descent = 0.0
+cache/0/19/0/underline_position = 0.0
+cache/0/19/0/underline_thickness = 0.0
+cache/0/19/0/scale = 1.0
+cache/0/19/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/19/0/kerning_overrides/17/0 = Vector2(0, 0)
+cache/0/19/0/kerning_overrides/18/0 = Vector2(0, 0)
+cache/0/19/0/kerning_overrides/19/0 = Vector2(0, 0)
+cache/0/19/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/19/0/kerning_overrides/21/0 = Vector2(0, 0)
+cache/0/19/0/kerning_overrides/22/0 = Vector2(0, 0)
+cache/0/19/0/kerning_overrides/23/0 = Vector2(0, 0)
+cache/0/19/0/kerning_overrides/24/0 = Vector2(0, 0)
+cache/0/19/0/kerning_overrides/25/0 = Vector2(0, 0)
+cache/0/19/0/kerning_overrides/26/0 = Vector2(0, 0)
+cache/0/19/0/kerning_overrides/27/0 = Vector2(0, 0)
+cache/0/19/0/kerning_overrides/28/0 = Vector2(0, 0)
+cache/0/19/0/kerning_overrides/29/0 = Vector2(0, 0)
+cache/0/19/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/19/0/kerning_overrides/31/0 = Vector2(0, 0)
+cache/0/19/0/kerning_overrides/60/0 = Vector2(0, 0)
+cache/0/20/0/ascent = 0.0
+cache/0/20/0/descent = 0.0
+cache/0/20/0/underline_position = 0.0
+cache/0/20/0/underline_thickness = 0.0
+cache/0/20/0/scale = 1.0
+cache/0/20/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/17/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/18/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/19/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/21/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/22/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/23/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/24/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/25/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/26/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/27/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/28/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/29/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/31/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/60/0 = Vector2(0, 0)
+cache/0/21/0/ascent = 0.0
+cache/0/21/0/descent = 0.0
+cache/0/21/0/underline_position = 0.0
+cache/0/21/0/underline_thickness = 0.0
+cache/0/21/0/scale = 1.0
+cache/0/21/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/21/0/kerning_overrides/17/0 = Vector2(0, 0)
+cache/0/21/0/kerning_overrides/18/0 = Vector2(0, 0)
+cache/0/21/0/kerning_overrides/19/0 = Vector2(0, 0)
+cache/0/21/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/21/0/kerning_overrides/21/0 = Vector2(0, 0)
+cache/0/21/0/kerning_overrides/22/0 = Vector2(0, 0)
+cache/0/21/0/kerning_overrides/23/0 = Vector2(0, 0)
+cache/0/21/0/kerning_overrides/24/0 = Vector2(0, 0)
+cache/0/21/0/kerning_overrides/25/0 = Vector2(0, 0)
+cache/0/21/0/kerning_overrides/26/0 = Vector2(0, 0)
+cache/0/21/0/kerning_overrides/27/0 = Vector2(0, 0)
+cache/0/21/0/kerning_overrides/28/0 = Vector2(0, 0)
+cache/0/21/0/kerning_overrides/29/0 = Vector2(0, 0)
+cache/0/21/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/21/0/kerning_overrides/31/0 = Vector2(0, 0)
+cache/0/21/0/kerning_overrides/60/0 = Vector2(0, 0)
+cache/0/22/0/ascent = 0.0
+cache/0/22/0/descent = 0.0
+cache/0/22/0/underline_position = 0.0
+cache/0/22/0/underline_thickness = 0.0
+cache/0/22/0/scale = 1.0
+cache/0/22/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/22/0/kerning_overrides/17/0 = Vector2(0, 0)
+cache/0/22/0/kerning_overrides/18/0 = Vector2(0, 0)
+cache/0/22/0/kerning_overrides/19/0 = Vector2(0, 0)
+cache/0/22/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/22/0/kerning_overrides/21/0 = Vector2(0, 0)
+cache/0/22/0/kerning_overrides/22/0 = Vector2(0, 0)
+cache/0/22/0/kerning_overrides/23/0 = Vector2(0, 0)
+cache/0/22/0/kerning_overrides/24/0 = Vector2(0, 0)
+cache/0/22/0/kerning_overrides/25/0 = Vector2(0, 0)
+cache/0/22/0/kerning_overrides/26/0 = Vector2(0, 0)
+cache/0/22/0/kerning_overrides/27/0 = Vector2(0, 0)
+cache/0/22/0/kerning_overrides/28/0 = Vector2(0, 0)
+cache/0/22/0/kerning_overrides/29/0 = Vector2(0, 0)
+cache/0/22/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/22/0/kerning_overrides/31/0 = Vector2(0, 0)
+cache/0/22/0/kerning_overrides/60/0 = Vector2(0, 0)
+cache/0/23/0/ascent = 0.0
+cache/0/23/0/descent = 0.0
+cache/0/23/0/underline_position = 0.0
+cache/0/23/0/underline_thickness = 0.0
+cache/0/23/0/scale = 1.0
+cache/0/23/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/23/0/kerning_overrides/17/0 = Vector2(0, 0)
+cache/0/23/0/kerning_overrides/18/0 = Vector2(0, 0)
+cache/0/23/0/kerning_overrides/19/0 = Vector2(0, 0)
+cache/0/23/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/23/0/kerning_overrides/21/0 = Vector2(0, 0)
+cache/0/23/0/kerning_overrides/22/0 = Vector2(0, 0)
+cache/0/23/0/kerning_overrides/23/0 = Vector2(0, 0)
+cache/0/23/0/kerning_overrides/24/0 = Vector2(0, 0)
+cache/0/23/0/kerning_overrides/25/0 = Vector2(0, 0)
+cache/0/23/0/kerning_overrides/26/0 = Vector2(0, 0)
+cache/0/23/0/kerning_overrides/27/0 = Vector2(0, 0)
+cache/0/23/0/kerning_overrides/28/0 = Vector2(0, 0)
+cache/0/23/0/kerning_overrides/29/0 = Vector2(0, 0)
+cache/0/23/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/23/0/kerning_overrides/31/0 = Vector2(0, 0)
+cache/0/23/0/kerning_overrides/60/0 = Vector2(0, 0)
+cache/0/24/0/ascent = 0.0
+cache/0/24/0/descent = 0.0
+cache/0/24/0/underline_position = 0.0
+cache/0/24/0/underline_thickness = 0.0
+cache/0/24/0/scale = 1.0
+cache/0/24/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/24/0/kerning_overrides/17/0 = Vector2(0, 0)
+cache/0/24/0/kerning_overrides/18/0 = Vector2(0, 0)
+cache/0/24/0/kerning_overrides/19/0 = Vector2(0, 0)
+cache/0/24/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/24/0/kerning_overrides/21/0 = Vector2(0, 0)
+cache/0/24/0/kerning_overrides/22/0 = Vector2(0, 0)
+cache/0/24/0/kerning_overrides/23/0 = Vector2(0, 0)
+cache/0/24/0/kerning_overrides/24/0 = Vector2(0, 0)
+cache/0/24/0/kerning_overrides/25/0 = Vector2(0, 0)
+cache/0/24/0/kerning_overrides/26/0 = Vector2(0, 0)
+cache/0/24/0/kerning_overrides/27/0 = Vector2(0, 0)
+cache/0/24/0/kerning_overrides/28/0 = Vector2(0, 0)
+cache/0/24/0/kerning_overrides/29/0 = Vector2(0, 0)
+cache/0/24/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/24/0/kerning_overrides/31/0 = Vector2(0, 0)
+cache/0/24/0/kerning_overrides/60/0 = Vector2(0, 0)
+cache/0/25/0/ascent = 0.0
+cache/0/25/0/descent = 0.0
+cache/0/25/0/underline_position = 0.0
+cache/0/25/0/underline_thickness = 0.0
+cache/0/25/0/scale = 1.0
+cache/0/25/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/25/0/kerning_overrides/17/0 = Vector2(0, 0)
+cache/0/25/0/kerning_overrides/18/0 = Vector2(0, 0)
+cache/0/25/0/kerning_overrides/19/0 = Vector2(0, 0)
+cache/0/25/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/25/0/kerning_overrides/21/0 = Vector2(0, 0)
+cache/0/25/0/kerning_overrides/22/0 = Vector2(0, 0)
+cache/0/25/0/kerning_overrides/23/0 = Vector2(0, 0)
+cache/0/25/0/kerning_overrides/24/0 = Vector2(0, 0)
+cache/0/25/0/kerning_overrides/25/0 = Vector2(0, 0)
+cache/0/25/0/kerning_overrides/26/0 = Vector2(0, 0)
+cache/0/25/0/kerning_overrides/27/0 = Vector2(0, 0)
+cache/0/25/0/kerning_overrides/28/0 = Vector2(0, 0)
+cache/0/25/0/kerning_overrides/29/0 = Vector2(0, 0)
+cache/0/25/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/25/0/kerning_overrides/31/0 = Vector2(0, 0)
+cache/0/25/0/kerning_overrides/60/0 = Vector2(0, 0)
+cache/0/26/0/ascent = 0.0
+cache/0/26/0/descent = 0.0
+cache/0/26/0/underline_position = 0.0
+cache/0/26/0/underline_thickness = 0.0
+cache/0/26/0/scale = 1.0
+cache/0/26/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/26/0/kerning_overrides/17/0 = Vector2(0, 0)
+cache/0/26/0/kerning_overrides/18/0 = Vector2(0, 0)
+cache/0/26/0/kerning_overrides/19/0 = Vector2(0, 0)
+cache/0/26/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/26/0/kerning_overrides/21/0 = Vector2(0, 0)
+cache/0/26/0/kerning_overrides/22/0 = Vector2(0, 0)
+cache/0/26/0/kerning_overrides/23/0 = Vector2(0, 0)
+cache/0/26/0/kerning_overrides/24/0 = Vector2(0, 0)
+cache/0/26/0/kerning_overrides/25/0 = Vector2(0, 0)
+cache/0/26/0/kerning_overrides/26/0 = Vector2(0, 0)
+cache/0/26/0/kerning_overrides/27/0 = Vector2(0, 0)
+cache/0/26/0/kerning_overrides/28/0 = Vector2(0, 0)
+cache/0/26/0/kerning_overrides/29/0 = Vector2(0, 0)
+cache/0/26/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/26/0/kerning_overrides/31/0 = Vector2(0, 0)
+cache/0/26/0/kerning_overrides/60/0 = Vector2(0, 0)
+cache/0/27/0/ascent = 0.0
+cache/0/27/0/descent = 0.0
+cache/0/27/0/underline_position = 0.0
+cache/0/27/0/underline_thickness = 0.0
+cache/0/27/0/scale = 1.0
+cache/0/27/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/27/0/kerning_overrides/17/0 = Vector2(0, 0)
+cache/0/27/0/kerning_overrides/18/0 = Vector2(0, 0)
+cache/0/27/0/kerning_overrides/19/0 = Vector2(0, 0)
+cache/0/27/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/27/0/kerning_overrides/21/0 = Vector2(0, 0)
+cache/0/27/0/kerning_overrides/22/0 = Vector2(0, 0)
+cache/0/27/0/kerning_overrides/23/0 = Vector2(0, 0)
+cache/0/27/0/kerning_overrides/24/0 = Vector2(0, 0)
+cache/0/27/0/kerning_overrides/25/0 = Vector2(0, 0)
+cache/0/27/0/kerning_overrides/26/0 = Vector2(0, 0)
+cache/0/27/0/kerning_overrides/27/0 = Vector2(0, 0)
+cache/0/27/0/kerning_overrides/28/0 = Vector2(0, 0)
+cache/0/27/0/kerning_overrides/29/0 = Vector2(0, 0)
+cache/0/27/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/27/0/kerning_overrides/31/0 = Vector2(0, 0)
+cache/0/27/0/kerning_overrides/60/0 = Vector2(0, 0)
+cache/0/28/0/ascent = 0.0
+cache/0/28/0/descent = 0.0
+cache/0/28/0/underline_position = 0.0
+cache/0/28/0/underline_thickness = 0.0
+cache/0/28/0/scale = 1.0
+cache/0/28/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/28/0/kerning_overrides/17/0 = Vector2(0, 0)
+cache/0/28/0/kerning_overrides/18/0 = Vector2(0, 0)
+cache/0/28/0/kerning_overrides/19/0 = Vector2(0, 0)
+cache/0/28/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/28/0/kerning_overrides/21/0 = Vector2(0, 0)
+cache/0/28/0/kerning_overrides/22/0 = Vector2(0, 0)
+cache/0/28/0/kerning_overrides/23/0 = Vector2(0, 0)
+cache/0/28/0/kerning_overrides/24/0 = Vector2(0, 0)
+cache/0/28/0/kerning_overrides/25/0 = Vector2(0, 0)
+cache/0/28/0/kerning_overrides/26/0 = Vector2(0, 0)
+cache/0/28/0/kerning_overrides/27/0 = Vector2(0, 0)
+cache/0/28/0/kerning_overrides/28/0 = Vector2(0, 0)
+cache/0/28/0/kerning_overrides/29/0 = Vector2(0, 0)
+cache/0/28/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/28/0/kerning_overrides/31/0 = Vector2(0, 0)
+cache/0/28/0/kerning_overrides/60/0 = Vector2(0, 0)
+cache/0/29/0/ascent = 0.0
+cache/0/29/0/descent = 0.0
+cache/0/29/0/underline_position = 0.0
+cache/0/29/0/underline_thickness = 0.0
+cache/0/29/0/scale = 1.0
+cache/0/29/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/29/0/kerning_overrides/17/0 = Vector2(0, 0)
+cache/0/29/0/kerning_overrides/18/0 = Vector2(0, 0)
+cache/0/29/0/kerning_overrides/19/0 = Vector2(0, 0)
+cache/0/29/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/29/0/kerning_overrides/21/0 = Vector2(0, 0)
+cache/0/29/0/kerning_overrides/22/0 = Vector2(0, 0)
+cache/0/29/0/kerning_overrides/23/0 = Vector2(0, 0)
+cache/0/29/0/kerning_overrides/24/0 = Vector2(0, 0)
+cache/0/29/0/kerning_overrides/25/0 = Vector2(0, 0)
+cache/0/29/0/kerning_overrides/26/0 = Vector2(0, 0)
+cache/0/29/0/kerning_overrides/27/0 = Vector2(0, 0)
+cache/0/29/0/kerning_overrides/28/0 = Vector2(0, 0)
+cache/0/29/0/kerning_overrides/29/0 = Vector2(0, 0)
+cache/0/29/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/29/0/kerning_overrides/31/0 = Vector2(0, 0)
+cache/0/29/0/kerning_overrides/60/0 = Vector2(0, 0)
+cache/0/30/0/ascent = 0.0
+cache/0/30/0/descent = 0.0
+cache/0/30/0/underline_position = 0.0
+cache/0/30/0/underline_thickness = 0.0
+cache/0/30/0/scale = 1.0
+cache/0/30/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/17/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/18/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/19/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/21/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/22/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/23/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/24/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/25/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/26/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/27/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/28/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/29/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/31/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/60/0 = Vector2(0, 0)
+cache/0/31/0/ascent = 0.0
+cache/0/31/0/descent = 0.0
+cache/0/31/0/underline_position = 0.0
+cache/0/31/0/underline_thickness = 0.0
+cache/0/31/0/scale = 1.0
+cache/0/31/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/31/0/kerning_overrides/17/0 = Vector2(0, 0)
+cache/0/31/0/kerning_overrides/18/0 = Vector2(0, 0)
+cache/0/31/0/kerning_overrides/19/0 = Vector2(0, 0)
+cache/0/31/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/31/0/kerning_overrides/21/0 = Vector2(0, 0)
+cache/0/31/0/kerning_overrides/22/0 = Vector2(0, 0)
+cache/0/31/0/kerning_overrides/23/0 = Vector2(0, 0)
+cache/0/31/0/kerning_overrides/24/0 = Vector2(0, 0)
+cache/0/31/0/kerning_overrides/25/0 = Vector2(0, 0)
+cache/0/31/0/kerning_overrides/26/0 = Vector2(0, 0)
+cache/0/31/0/kerning_overrides/27/0 = Vector2(0, 0)
+cache/0/31/0/kerning_overrides/28/0 = Vector2(0, 0)
+cache/0/31/0/kerning_overrides/29/0 = Vector2(0, 0)
+cache/0/31/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/31/0/kerning_overrides/31/0 = Vector2(0, 0)
+cache/0/31/0/kerning_overrides/60/0 = Vector2(0, 0)
+cache/0/60/0/ascent = 0.0
+cache/0/60/0/descent = 0.0
+cache/0/60/0/underline_position = 0.0
+cache/0/60/0/underline_thickness = 0.0
+cache/0/60/0/scale = 1.0
+cache/0/60/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/60/0/kerning_overrides/17/0 = Vector2(0, 0)
+cache/0/60/0/kerning_overrides/18/0 = Vector2(0, 0)
+cache/0/60/0/kerning_overrides/19/0 = Vector2(0, 0)
+cache/0/60/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/60/0/kerning_overrides/21/0 = Vector2(0, 0)
+cache/0/60/0/kerning_overrides/22/0 = Vector2(0, 0)
+cache/0/60/0/kerning_overrides/23/0 = Vector2(0, 0)
+cache/0/60/0/kerning_overrides/24/0 = Vector2(0, 0)
+cache/0/60/0/kerning_overrides/25/0 = Vector2(0, 0)
+cache/0/60/0/kerning_overrides/26/0 = Vector2(0, 0)
+cache/0/60/0/kerning_overrides/27/0 = Vector2(0, 0)
+cache/0/60/0/kerning_overrides/28/0 = Vector2(0, 0)
+cache/0/60/0/kerning_overrides/29/0 = Vector2(0, 0)
+cache/0/60/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/60/0/kerning_overrides/31/0 = Vector2(0, 0)
+cache/0/60/0/kerning_overrides/60/0 = Vector2(0, 0)
+
+[sub_resource type="LabelSettings" id="LabelSettings_nee62"]
+font = SubResource("FontFile_k1e3a")
+font_size = 60
+shadow_size = 6
+shadow_color = Color(1, 1, 1, 1)
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_5xppi")
+
+[node name="audio_e" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(372, 465)
+stream = ExtResource("3_qd4qd")
+
+[node name="intentaO" type="Label" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 434.0
+offset_top = 381.0
+offset_right = 846.0
+offset_bottom = 462.0
+text = "Intenta otra vez"
+label_settings = SubResource("LabelSettings_nee62")
+
+[node name="siguiente" type="Button" parent="."]
+layout_mode = 0
+offset_left = 564.0
+offset_top = 577.0
+offset_right = 683.0
+offset_bottom = 621.0
+scale = Vector2(1.23924, 1.52856)
+text = "Confirmar
+"
+
+[node name="letra3" type="Label" parent="."]
+layout_mode = 0
+offset_left = 846.0
+offset_top = 463.0
+offset_right = 920.0
+offset_bottom = 547.0
+text = "A"
+label_settings = ExtResource("2_7l2gn")
+
+[node name="boton3" type="Button" parent="letra3"]
+visibility_layer = 0
+offset_left = -30.0
+offset_top = 5.0
+offset_right = 69.0
+offset_bottom = 81.0
+
+[node name="letra2" type="Label" parent="."]
+layout_mode = 0
+offset_left = 611.0
+offset_top = 460.0
+offset_right = 685.0
+offset_bottom = 544.0
+text = "O"
+label_settings = ExtResource("2_7l2gn")
+
+[node name="boton2" type="Button" parent="letra2"]
+visibility_layer = 0
+offset_left = -25.0
+offset_top = 7.0
+offset_right = 74.0
+offset_bottom = 83.0
+
+[node name="letra1" type="Label" parent="."]
+layout_mode = 0
+offset_left = 372.0
+offset_top = 465.0
+offset_right = 446.0
+offset_bottom = 549.0
+text = "E"
+label_settings = ExtResource("2_7l2gn")
+
+[node name="boton1" type="Button" parent="letra1"]
+visibility_layer = 0
+layout_mode = 0
+offset_left = -22.0
+offset_top = 6.0
+offset_right = 77.0
+offset_bottom = 82.0
+
+[node name="correcto" type="Label" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 529.0
+offset_top = 391.0
+offset_right = 757.0
+offset_bottom = 472.0
+text = "Correcto"
+label_settings = SubResource("LabelSettings_nee62")
+
+[node name="palabra" type="Label" parent="."]
+layout_mode = 0
+offset_left = 574.0
+offset_top = 307.0
+offset_right = 716.0
+offset_bottom = 388.0
+text = "D__s"
+label_settings = SubResource("LabelSettings_nee62")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.545098, 0.756863, 0.854902, 0.921569)
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Dos" type="Sprite2D" parent="."]
+position = Vector2(648, 159)
+scale = Vector2(0.160887, 0.187525)
+texture = ExtResource("3_05mbd")
+
+[connection signal="pressed" from="siguiente" to="." method="_on_siguiente_pressed"]
+[connection signal="pressed" from="letra3/boton3" to="." method="_on_boton_3_pressed"]
+[connection signal="pressed" from="letra3/boton3" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="letra2/boton2" to="." method="_on_boton_2_pressed"]
+[connection signal="pressed" from="letra2/boton2" to="." method="_on_button_pressed"]
+[connection signal="gui_input" from="letra1" to="." method="_on_letra_4_gui_input"]
+[connection signal="pressed" from="letra1/boton1" to="." method="_on_boton_1_pressed"]
+[connection signal="pressed" from="letra1/boton1" to="." method="_on_button_pressed"]
+[connection signal="visibility_changed" from="correcto" to="." method="_on_correcto_visibility_changed"]

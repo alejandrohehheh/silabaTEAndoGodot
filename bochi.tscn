@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://cchdbn8ami8l2"]
+
+[ext_resource type="Texture2D" uid="uid://ci0akr6jlp0og" path="res://images/1.jpg" id="1_ku531"]
+
+[node name="Node2D" type="Node2D"]
+scale = Vector2(0.542248, 0.590835)
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="1" type="Sprite2D" parent="Control"]
+position = Vector2(1006.92, 560.224)
+scale = Vector2(2.23826, 1.60518)
+texture = ExtResource("1_ku531")

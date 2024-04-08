@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://deynagv1s48cq"]
+[gd_scene load_steps=4 format=3 uid="uid://deynagv1s48cq"]
 
 [ext_resource type="Script" path="res://scripts/control.gd" id="1_hge28"]
 [ext_resource type="Texture2D" uid="uid://3nthnqko8jxi" path="res://images/logo12.png" id="2_krjex"]
+[ext_resource type="AudioStream" uid="uid://dsl2mliaru2f6" path="res://sounds/beinven.mp3" id="3_k4ucu"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -39,5 +40,8 @@ offset_bottom = 259.0
 grow_horizontal = 2
 grow_vertical = 2
 text = "inicio"
+
+[node name="audio_bien" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_k4ucu")
 
 [connection signal="pressed" from="CanvasLayer/Button" to="." method="_on_button_pressed"]

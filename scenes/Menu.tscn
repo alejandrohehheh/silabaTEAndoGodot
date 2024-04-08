@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://xtvhljpjm24d"]
 
 [ext_resource type="Theme" uid="uid://ceh0roi7no0nc" path="res://themes/botonUser.tres" id="1_a047s"]
-[ext_resource type="Script" path="res://scenes/Menu.gd" id="1_mul7t"]
+[ext_resource type="Script" path="res://scripts/Menu.gd" id="1_mul7t"]
 
 [node name="Menu" type="Control"]
 layout_mode = 3
@@ -53,3 +53,5 @@ text = "Nivel 2
 expand_icon = true
 
 [connection signal="pressed" from="CanvasLayer/Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/Button2" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="VBoxContainer/Button3" to="." method="_on_button_3_pressed"]

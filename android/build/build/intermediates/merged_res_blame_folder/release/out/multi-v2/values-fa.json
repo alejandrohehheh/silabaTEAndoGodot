@@ -15,9 +15,9 @@
                     "to": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "217,271,345,403,463,532,602,780,953,1055,1134",
+                        "startOffsets": "223,277,351,409,469,538,608,786,959,1061,1140",
                         "endColumns": "53,73,57,59,68,69,177,172,101,78,70",
-                        "endOffsets": "266,340,398,458,527,597,775,948,1050,1129,1200"
+                        "endOffsets": "272,346,404,464,533,603,781,954,1056,1135,1206"
                     }
                 },
                 {
@@ -32,26 +32,26 @@
                     "to": {
                         "startLines": "3",
                         "startColumns": "4",
-                        "startOffsets": "116",
+                        "startOffsets": "122",
                         "endColumns": "100",
-                        "endOffsets": "212"
+                        "endOffsets": "218"
                     }
                 },
                 {
-                    "source": "C:\\Users\\aleja\\OneDrive\\Documentos\\GitHub\\silabaTEAndoGodot\\android\\build\\res\\values-fa\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\aleja\\Alejandro\\silabaTEAndoGodot\\android\\build\\res\\values-fa\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
                         "startOffsets": "112",
-                        "endColumns": "57",
-                        "endOffsets": "168"
+                        "endColumns": "63",
+                        "endOffsets": "174"
                     },
                     "to": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
-                        "endColumns": "60",
-                        "endOffsets": "111"
+                        "endColumns": "66",
+                        "endOffsets": "117"
                     }
                 }
             ]
