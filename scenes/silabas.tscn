@@ -1,0 +1,387 @@
+[gd_scene load_steps=9 format=3 uid="uid://byinr1wfss2dn"]
+
+[ext_resource type="FontFile" uid="uid://carmtppxwmsba" path="res://fonts/Cat Comic.otf" id="1_0jelj"]
+[ext_resource type="Script" path="res://scenes/silabas.gd" id="1_8r8hy"]
+[ext_resource type="Theme" uid="uid://b1cy80dpvq7dd" path="res://themes/botonLetra.tres" id="2_0sn08"]
+[ext_resource type="Script" path="res://scenes/vocal.gd" id="4_6ubdj"]
+[ext_resource type="Script" path="res://scenes/Label4.gd" id="4_qrut6"]
+[ext_resource type="Theme" uid="uid://ckiogkooxf7s8" path="res://themes/audio.tres" id="6_04yko"]
+[ext_resource type="AudioStream" uid="uid://b6hbuiocnshmj" path="res://sounds/Ma.wav" id="7_5o2xm"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_0yom1"]
+font = ExtResource("1_0jelj")
+font_size = 71
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_8r8hy")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.545098, 0.756863, 0.854902, 0.921569)
+
+[node name="Label" type="Label" parent="."]
+offset_left = 362.0
+offset_top = 37.0
+offset_right = 899.0
+offset_bottom = 110.0
+text = "Combina silabas:"
+label_settings = SubResource("LabelSettings_0yom1")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+offset_left = 772.0
+offset_top = 108.0
+offset_right = 1242.0
+offset_bottom = 207.0
+
+[node name="btnB" type="Button" parent="HBoxContainer"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 5
+theme = ExtResource("2_0sn08")
+text = "B"
+
+[node name="btnC" type="Button" parent="HBoxContainer"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 5
+theme = ExtResource("2_0sn08")
+text = "C"
+
+[node name="btnD" type="Button" parent="HBoxContainer"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 5
+theme = ExtResource("2_0sn08")
+text = "D"
+
+[node name="btnF" type="Button" parent="HBoxContainer"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 5
+theme = ExtResource("2_0sn08")
+text = "F"
+
+[node name="btnG" type="Button" parent="HBoxContainer"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 5
+theme = ExtResource("2_0sn08")
+text = "G"
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="."]
+offset_left = 772.0
+offset_top = 217.0
+offset_right = 1242.0
+offset_bottom = 316.0
+
+[node name="ButtonH" type="Button" parent="HBoxContainer2"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 13
+theme = ExtResource("2_0sn08")
+text = "H"
+
+[node name="ButtonJ" type="Button" parent="HBoxContainer2"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 13
+theme = ExtResource("2_0sn08")
+text = "J"
+
+[node name="ButtonK" type="Button" parent="HBoxContainer2"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 13
+theme = ExtResource("2_0sn08")
+text = "K"
+
+[node name="ButtonL" type="Button" parent="HBoxContainer2"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 13
+theme = ExtResource("2_0sn08")
+text = "L"
+
+[node name="ButtonM" type="Button" parent="HBoxContainer2"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 13
+theme = ExtResource("2_0sn08")
+text = "M"
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="."]
+offset_left = 772.0
+offset_top = 329.0
+offset_right = 1242.0
+offset_bottom = 428.0
+
+[node name="ButtonN" type="Button" parent="HBoxContainer3"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 13
+theme = ExtResource("2_0sn08")
+text = "N"
+
+[node name="ButtonNN" type="Button" parent="HBoxContainer3"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+size_flags_horizontal = 6
+theme = ExtResource("2_0sn08")
+text = "Ñ"
+
+[node name="ButtonP" type="Button" parent="HBoxContainer3"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+size_flags_horizontal = 6
+theme = ExtResource("2_0sn08")
+text = "P"
+
+[node name="ButtonQ" type="Button" parent="HBoxContainer3"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+size_flags_horizontal = 6
+theme = ExtResource("2_0sn08")
+text = "Q"
+
+[node name="ButtonR" type="Button" parent="HBoxContainer3"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+size_flags_horizontal = 6
+theme = ExtResource("2_0sn08")
+text = "R"
+
+[node name="HBoxContainer4" type="HBoxContainer" parent="."]
+offset_left = 772.0
+offset_top = 437.0
+offset_right = 1242.0
+offset_bottom = 536.0
+
+[node name="ButtonS" type="Button" parent="HBoxContainer4"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+size_flags_horizontal = 6
+theme = ExtResource("2_0sn08")
+text = "S"
+
+[node name="ButtonT" type="Button" parent="HBoxContainer4"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+size_flags_horizontal = 6
+theme = ExtResource("2_0sn08")
+text = "T"
+
+[node name="ButtonV" type="Button" parent="HBoxContainer4"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 5
+theme = ExtResource("2_0sn08")
+text = "V"
+
+[node name="ButtonW" type="Button" parent="HBoxContainer4"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 5
+theme = ExtResource("2_0sn08")
+text = "W"
+
+[node name="ButtonX" type="Button" parent="HBoxContainer4"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 5
+theme = ExtResource("2_0sn08")
+text = "X"
+
+[node name="btnA" type="Button" parent="."]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+offset_left = 82.0
+offset_top = 122.0
+offset_right = 162.0
+offset_bottom = 221.0
+size_flags_horizontal = 6
+size_flags_vertical = 5
+theme = ExtResource("2_0sn08")
+text = "A"
+icon_alignment = 1
+
+[node name="btnE" type="Button" parent="."]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+offset_left = 196.0
+offset_top = 122.0
+offset_right = 276.0
+offset_bottom = 221.0
+size_flags_horizontal = 6
+size_flags_vertical = 5
+theme = ExtResource("2_0sn08")
+text = "E"
+
+[node name="ButtonI" type="Button" parent="."]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+offset_left = 82.0
+offset_top = 245.0
+offset_right = 162.0
+offset_bottom = 344.0
+size_flags_horizontal = 6
+size_flags_vertical = 13
+theme = ExtResource("2_0sn08")
+text = "I"
+
+[node name="ButtonO" type="Button" parent="."]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+offset_left = 197.0
+offset_top = 249.0
+offset_right = 277.0
+offset_bottom = 348.0
+size_flags_horizontal = 6
+theme = ExtResource("2_0sn08")
+text = "O"
+
+[node name="ButtonU" type="Button" parent="."]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+offset_left = 82.0
+offset_top = 378.0
+offset_right = 162.0
+offset_bottom = 477.0
+size_flags_horizontal = 6
+size_flags_vertical = 5
+theme = ExtResource("2_0sn08")
+text = "U"
+
+[node name="ButtonY" type="Button" parent="."]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+offset_left = 871.0
+offset_top = 545.0
+offset_right = 951.0
+offset_bottom = 644.0
+size_flags_horizontal = 6
+size_flags_vertical = 5
+theme = ExtResource("2_0sn08")
+text = "Y"
+
+[node name="ButtonZ" type="Button" parent="."]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+offset_left = 1062.0
+offset_top = 546.0
+offset_right = 1142.0
+offset_bottom = 645.0
+size_flags_horizontal = 6
+size_flags_vertical = 5
+theme = ExtResource("2_0sn08")
+text = "Z"
+
+[node name="Label2" type="Label" parent="."]
+layout_mode = 0
+offset_left = 416.0
+offset_top = 382.0
+offset_right = 731.0
+offset_bottom = 405.0
+theme_override_fonts/font = ExtResource("1_0jelj")
+theme_override_font_sizes/font_size = 17
+text = "______________________________"
+
+[node name="vocal" type="Label" parent="."]
+offset_left = 548.0
+offset_top = 275.0
+offset_right = 653.0
+offset_bottom = 400.0
+theme_override_font_sizes/font_size = 60
+label_settings = SubResource("LabelSettings_0yom1")
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("4_6ubdj")
+
+[node name="consonante" type="Label" parent="."]
+offset_left = 450.0
+offset_top = 275.0
+offset_right = 555.0
+offset_bottom = 400.0
+theme_override_font_sizes/font_size = 60
+text = "
+"
+label_settings = SubResource("LabelSettings_0yom1")
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("4_qrut6")
+
+[node name="playAudio" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -93.0
+offset_top = 68.0
+offset_right = -2.0
+offset_bottom = 143.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("6_04yko")
+
+[node name="audio_ma" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(372, 465)
+stream = ExtResource("7_5o2xm")
+
+[connection signal="pressed" from="HBoxContainer/btnB" to="consonante" method="_on_btn_b_pressed"]
+[connection signal="pressed" from="HBoxContainer/btnC" to="consonante" method="_on_btn_c_pressed"]
+[connection signal="pressed" from="HBoxContainer/btnD" to="consonante" method="_on_btn_d_pressed"]
+[connection signal="pressed" from="HBoxContainer/btnF" to="consonante" method="_on_btn_f_pressed"]
+[connection signal="pressed" from="HBoxContainer/btnG" to="consonante" method="_on_btn_g_pressed"]
+[connection signal="pressed" from="HBoxContainer2/ButtonH" to="consonante" method="_on_button_h_pressed"]
+[connection signal="pressed" from="HBoxContainer2/ButtonJ" to="consonante" method="_on_button_j_pressed"]
+[connection signal="pressed" from="HBoxContainer2/ButtonK" to="consonante" method="_on_button_k_pressed"]
+[connection signal="pressed" from="HBoxContainer2/ButtonL" to="consonante" method="_on_button_l_pressed"]
+[connection signal="pressed" from="HBoxContainer2/ButtonM" to="consonante" method="_on_button_m_pressed"]
+[connection signal="pressed" from="HBoxContainer3/ButtonN" to="consonante" method="_on_button_n_pressed"]
+[connection signal="pressed" from="HBoxContainer3/ButtonNN" to="consonante" method="_on_button_nn_pressed"]
+[connection signal="pressed" from="HBoxContainer3/ButtonP" to="consonante" method="_on_button_p_pressed"]
+[connection signal="pressed" from="HBoxContainer3/ButtonQ" to="consonante" method="_on_button_q_pressed"]
+[connection signal="pressed" from="HBoxContainer3/ButtonR" to="consonante" method="_on_button_r_pressed"]
+[connection signal="pressed" from="HBoxContainer4/ButtonS" to="consonante" method="_on_button_s_pressed"]
+[connection signal="pressed" from="HBoxContainer4/ButtonT" to="consonante" method="_on_button_t_pressed"]
+[connection signal="pressed" from="HBoxContainer4/ButtonV" to="consonante" method="_on_button_v_pressed"]
+[connection signal="pressed" from="HBoxContainer4/ButtonW" to="consonante" method="_on_button_w_pressed"]
+[connection signal="pressed" from="HBoxContainer4/ButtonX" to="consonante" method="_on_button_x_pressed"]
+[connection signal="pressed" from="btnA" to="vocal" method="_on_btn_a_pressed"]
+[connection signal="pressed" from="btnE" to="vocal" method="_on_btn_e_pressed"]
+[connection signal="pressed" from="ButtonI" to="vocal" method="_on_button_i_pressed"]
+[connection signal="pressed" from="ButtonO" to="vocal" method="_on_button_o_pressed"]
+[connection signal="pressed" from="ButtonU" to="vocal" method="_on_button_u_pressed"]
+[connection signal="pressed" from="ButtonY" to="consonante" method="_on_button_y_pressed"]
+[connection signal="pressed" from="ButtonZ" to="consonante" method="_on_button_z_pressed"]
+[connection signal="pressed" from="playAudio" to="." method="_on_play_audio_pressed"]

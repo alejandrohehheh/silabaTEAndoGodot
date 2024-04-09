@@ -23,7 +23,7 @@ offset_bottom = 716.0
 color = Color(0.545098, 0.756863, 0.854902, 0.921569)
 
 [node name="Logo12" type="Sprite2D" parent="CanvasLayer"]
-position = Vector2(649, 310)
+position = Vector2(649, 297)
 scale = Vector2(0.975758, 0.954093)
 texture = ExtResource("2_krjex")
 

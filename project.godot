@@ -13,7 +13,7 @@ config_version=5
 config/name="juego1"
 run/main_scene="res://scenes/PantallaInicial.tscn"
 config/features=PackedStringArray("4.2", "Mobile")
-config/icon="res://images/icon.svg"
+config/icon="res://images/logoV.png"
 
 [autoload]
 
